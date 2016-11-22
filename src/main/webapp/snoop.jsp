@@ -7,10 +7,10 @@
 </HEAD>
 <BODY>
 
-<H1>NEW ------ WebApp JSP Snoop page</H1>
+<H1>WebApp JSP Snoop page</H1>
 <img src="images/jbosscorp_logo.png">
 
-<h2>JVM Memory Monitor</h2>
+<h2>>>>>JAVA [JVM Memory Monitor]</h2>
  
  
 <table border="0" width="100%">
