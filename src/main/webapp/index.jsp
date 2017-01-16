@@ -1,8 +1,5 @@
-<HTML>
-<HEAD>
-<TITLE>MESSAGE</TITLE>
-</HEAD>
-<BODY>
-<%out.print("Hello, Sample JSP code");%>
-</BODY>
-</HTML>
+<html>
+<head>
+<meta http-equiv="Refresh" content="0; URL=index.xhtml">
+</head>
+</html>
