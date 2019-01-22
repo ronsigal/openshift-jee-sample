@@ -28,6 +28,12 @@ public class Manager {
 	
 	@PostConstruct
 	public void initNewProperty() {
+                // Taken from configuration
+                SimpleProperty configProperty = new SimpleProperty();
+                configProperty.setKey("greeting");
+                configProperty.setValue(System.getProperty("greeting"));
+                ejb.put(configProperty);
+       
 		property = new SimpleProperty();
 	}
 	 
