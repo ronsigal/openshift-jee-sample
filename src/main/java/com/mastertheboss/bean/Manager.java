@@ -33,7 +33,7 @@ public class Manager {
              this.greeting = System.getProperty("greeting");
         }
 
-        public void getGreeting() {
+        public String getGreeting() {
              return greeting;
         }
 	@PostConstruct
