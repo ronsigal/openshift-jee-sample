@@ -26,14 +26,19 @@ public class Manager {
 	@Inject
 	Producer producer;
 	
+        String greeting;
+
+        public void setGreeting() {
+             // Taken from configuration
+             this.greeting = System.getProperty("greeting");
+        }
+
+        public void getGreeting() {
+             return greeting;
+        }
 	@PostConstruct
 	public void initNewProperty() {
-                // Taken from configuration
-                SimpleProperty configProperty = new SimpleProperty();
-                configProperty.setKey("greeting");
-                configProperty.setValue(System.getProperty("greeting"));
-                ejb.put(configProperty);
-       
+      
 		property = new SimpleProperty();
 	}
 	 
