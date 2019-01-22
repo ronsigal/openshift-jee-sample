@@ -28,13 +28,13 @@ public class Manager {
 	
         String greeting;
 
-        public void setGreeting() {
-             // Taken from configuration
-             this.greeting = System.getProperty("greeting");
+        public void setGreeting(String g) {
+             this.greeting = g;
         }
 
         public String getGreeting() {
-             return greeting;
+             // Taken from configuration
+             return System.getProperty("greeting");
         }
 	@PostConstruct
 	public void initNewProperty() {
