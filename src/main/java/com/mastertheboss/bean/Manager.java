@@ -33,6 +33,7 @@ public class Manager {
 	 
 	public void save() {
 		ejb.put(property);
+		System.out.println("saved "+property);
 		initNewProperty();
 	}
 
