@@ -3,5 +3,4 @@ openshift-jee-sample
 
 A sample app to be deployed on openshift environments
 
-Note: to build this repository with maven you must specify "-Popenshift", eg "mvn clean package -Popenshift"
-
+You can read more about it: http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift
